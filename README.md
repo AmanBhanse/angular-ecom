@@ -4,10 +4,9 @@
 
 This project is a simple e-commerce website built with Angular. Users can browse products, add them to the cart, and view the total sum of selected items. Please note that the cart currently does not support quantity management for products.
 
+<img width="1693" alt="main-page-2" src="https://github.com/user-attachments/assets/64c2c86d-51ad-49a0-93c1-57e2960ded1b" />
 
-<img width="1693" alt="Main-page" src="https://github.com/user-attachments/assets/cf3a4756-94df-4977-a1c3-1a924788451a" />
-
-<img width="1693" alt="checkout" src="https://github.com/user-attachments/assets/6e5d8836-878a-4487-9e89-8a2bde988a3c" />
+<img width="1693" alt="checkout-2" src="https://github.com/user-attachments/assets/c14b80ad-3090-4a03-a098-b3fd59f13766" />
 
 ## Features
 
