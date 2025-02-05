@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal, OnInit } from '@angular/core';
 import { Product } from '../../models/product.models';
 import { ProductCardComponent } from "./product-card/product-card.component";
 
@@ -17,6 +17,8 @@ import { ProductCardComponent } from "./product-card/product-card.component";
   styles: ``
 })
 export class ProductsListComponent {
+  //For TESTING
+  /*
   products = signal<Product[]>([
     {
       id:1,
@@ -47,4 +49,13 @@ export class ProductsListComponent {
       stock : 0
     }
   ])
+  */
+
+  products = signal<Product[]>([])
+  async ngOnInit(){
+    const res = await fetch("https://fakestoreapi.com/products");
+    const data = await res.json();
+    this.products.set(data);
+  }
+
 }

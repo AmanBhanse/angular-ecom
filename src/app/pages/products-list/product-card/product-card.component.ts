@@ -2,6 +2,7 @@ import { Component, inject, input } from '@angular/core';
 import { Product } from '../../../models/product.models';
 import { PrimaryButtonComponent } from "../../../components/primary-button/primary-button.component";
 import { CartService } from '../../../services/cart.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-product-card',
@@ -23,14 +24,16 @@ import { CartService } from '../../../services/cart.service';
           (btnClicked)="cartService.addToCart(product())"
         />
       </div>
-      <span
-        class="absolute top-2 right-3 text-sm font-bold"
-        [class]="product().stock ? 'text-green-500' : 'text-red-500'"
+      
+      <!-- Rating Badge  -->
+      <span 
+        class="absolute top-2 left-3 text-sm font-bold px-2 py-1 rounded-lg text-white"
+        [class.bg-green-500]="product().rating.rate > 4"
+        [class.bg-yellow-500]="product().rating.rate >= 3 && product().rating.rate <= 4"
+        [class.bg-red-500]="product().rating.rate < 3"
       >
-        @if (product().stock) {
-        {{ product().stock }} left } @else { Out of stock }
+        ⭐ {{ product().rating.rate }} / 5
       </span>
-    </div>
   `,
   styles: ``
 })
