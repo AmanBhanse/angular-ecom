@@ -1,8 +1,11 @@
-# Angular E-Commerce Site
+<img width="1693" alt="Main-page" src="https://github.com/user-attachments/assets/aab25c6d-f3ff-4bb7-8b6f-e37f8b6b460e" /># Angular E-Commerce Site
 
 ## Overview
 
 This project is a simple e-commerce website built with Angular. Users can browse products, add them to the cart, and view the total sum of selected items. Please note that the cart currently does not support quantity management for products.
+
+
+<img width="1693" alt="Main-page" src="https://github.com/user-attachments/assets/cf3a4756-94df-4977-a1c3-1a924788451a" />
 
 ## Features
 
