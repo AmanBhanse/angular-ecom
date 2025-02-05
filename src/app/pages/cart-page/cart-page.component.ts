@@ -14,7 +14,9 @@ import { OrderSummaryComponent } from "./order-summary/order-summary.component";
       <app-cart-item [item]="item" />
       }
     </div>
-    <app-order-summary/>
+    <div class="flex justify-center items-center">
+      <app-order-summary/>
+    </div>
   `,
   styles: ``
 })
