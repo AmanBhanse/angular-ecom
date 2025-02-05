@@ -1,59 +1,82 @@
-# AngularEcom
+# Angular E-Commerce Site
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
+## Overview
 
-## Development server
+This project is a simple e-commerce website built with Angular. Users can browse products, add them to the cart, and view the total sum of selected items. Please note that the cart currently does not support quantity management for products.
 
-To start a local development server, run:
+## Features
 
-```bash
-ng serve
-```
+- **Product Listing**: Displays a list of available products.
+- **Add to Cart**: Users can add products to their shopping cart.
+- **Cart Summary**: View selected items with a total price calculation.
+- **Responsive Design**: Optimized for various screen sizes.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Technologies Used
 
-## Code scaffolding
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+- Call to actual API : [fakeapistore](https://fakestoreapi.com/docs)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Installation
 
-```bash
-ng generate component component-name
-```
+### Prerequisites
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Ensure you have the following installed:
 
-```bash
-ng generate --help
-```
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli)
 
-## Building
+### Steps
 
-To build the project run:
+1. **Clone the Repository**:
 
-```bash
-ng build
-```
+   ```bash
+   git clone https://github.com/AmanBhanse/angular-ecom.git
+   ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd angular-ecom
+   ```
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Run the Application**:
+   ```bash
+   ng serve
+   ```
 
-## Running unit tests
+## Usage
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- Browse Products: View the list of available products on the homepage.
+- Add to Cart: Click the "Add to Cart" button on a product to add it to your cart.
+- View Cart: Click on the cart icon to view selected items and the total price.
 
-```bash
-ng test
-```
+## Project Structure
 
-## Running end-to-end tests
+The project follows a standard Angular structure:
 
-For end-to-end (e2e) testing, run:
+- `src/app/`: Contains the main application code.
+- `components/`: Holds reusable components like product-list and cart.
+- `services/`: Contains services such as product.service.ts and cart.service.ts for handling business logic and data retrieval.
+- `pages/`: contains pages
 
-```bash
-ng e2e
-```
+## Contribution
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Contributions are welcome! To contribute:
 
-## Additional Resources
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add YourFeature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Key Enhancements:**
+
+- **Project Structure**: Added a section detailing the project's structure to help new contributors understand the organization of the codebase.
+- **Contribution Guidelines**: Provided a step-by-step guide for contributing to the project, encouraging community involvement.
+- **Acknowledgements**: Recognized the major technologies and tools used in the project.
+
+Feel free to integrate this updated `README.md` into your repository. If you have any further questions or need additional modifications, don't hesitate to ask!
