@@ -7,6 +7,8 @@ This project is a simple e-commerce website built with Angular. Users can browse
 
 <img width="1693" alt="Main-page" src="https://github.com/user-attachments/assets/cf3a4756-94df-4977-a1c3-1a924788451a" />
 
+<img width="1693" alt="checkout" src="https://github.com/user-attachments/assets/6e5d8836-878a-4487-9e89-8a2bde988a3c" />
+
 ## Features
 
 - **Product Listing**: Displays a list of available products.
