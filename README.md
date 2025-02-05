@@ -13,7 +13,6 @@ This project is a simple e-commerce website built with Angular. Users can browse
 - **Product Listing**: Displays a list of available products.
 - **Add to Cart**: Users can add products to their shopping cart.
 - **Cart Summary**: View selected items with a total price calculation.
-- **Responsive Design**: Optimized for various screen sizes.
 
 ## Technologies Used
 
