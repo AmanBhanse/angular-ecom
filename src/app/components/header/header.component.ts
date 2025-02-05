@@ -8,7 +8,7 @@ import { RouterLink } from '@angular/router';
   imports: [PrimaryButtonComponent, RouterLink],
   template: `
     <div class="bg-slate-100 px-4 py-3 shadow-md flex justify-between items-center">
-      <div routerLink="/" class="text-xl cursor-pointer">Buy Wish</div>
+      <div routerLink="/" class="text-4xl cursor-pointer">Buy Wish</div>
       <app-primary-button 
         [label]="'Cart('+cartService.cart().length + ')'" 
         (btnClicked)="showBtnClickFromHeader()"
