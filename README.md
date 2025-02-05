@@ -1,4 +1,4 @@
-<img width="1693" alt="Main-page" src="https://github.com/user-attachments/assets/aab25c6d-f3ff-4bb7-8b6f-e37f8b6b460e" /># Angular E-Commerce Site
+# Angular E-Commerce Site
 
 ## Overview
 
