@@ -8,4 +8,6 @@ export interface Product {
         rate : number,
         count : number
     }
+    description : string,
+    category : string
 }
